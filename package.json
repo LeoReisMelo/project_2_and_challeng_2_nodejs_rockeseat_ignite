@@ -1,0 +1,37 @@
+{
+  "name": "Projeto_2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "lint": "eslint src --ext .ts --fix",
+    "knex": "node --no-warnings --loader tsx ./node_modules/.bin/knex",
+    "build": "tsup ./src",
+    "test": "vitest"
+  },
+  "author": "Leonardo Reis Melo",
+  "license": "MIT",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "@types/node": "^18.15.3",
+    "@types/supertest": "^2.0.12",
+    "eslint": "^8.36.0",
+    "supertest": "^6.3.3",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.5",
+    "typescript": "^5.0.2",
+    "vitest": "^0.29.7"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^8.3.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.14.1",
+    "knex": "^2.4.2",
+    "pg": "^8.10.0",
+    "sqlite3": "^5.1.6",
+    "zod": "^3.21.4"
+  }
+}
