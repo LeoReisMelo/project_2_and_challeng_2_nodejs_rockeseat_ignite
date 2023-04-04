@@ -1,0 +1,33 @@
+{
+  "name": "Desafio_2",
+  "version": "1.0.0",
+  "description": "Desafio 2 do curso NodeJS - Ignite",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "lint": "eslint src --ext .ts --fix",
+    "knex": "node --no-warnings --loader tsx ./node_modules/.bin/knex",
+    "build": "tsup ./src",
+    "test": "vitest"
+  },
+  "author": "Leonardo Reis Melo",
+  "license": "MIT",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "@types/node": "^18.15.11",
+    "eslint": "^8.37.0",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^8.3.0",
+    "@types/crypto-js": "^4.1.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.15.0",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.6",
+    "zod": "^3.21.4"
+  }
+}
