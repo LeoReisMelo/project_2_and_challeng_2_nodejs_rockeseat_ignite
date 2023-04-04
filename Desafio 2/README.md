@@ -8,7 +8,7 @@
 - [X] Deve ser possível listar todas as refeições feitas por um usuário
 - [X] Deve ser possível apagar uma refeição
 - [X] Deve ser possível visualizar uma refeição
-- [] Deve ser possível recuperar as métricas
+- [x] Deve ser possível recuperar as métricas
 
 ## RNs (Regras de negócio)
 
